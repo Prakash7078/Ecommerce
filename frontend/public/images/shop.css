@@ -1,0 +1,42 @@
+body{}
+#navbarNav{
+    justify-content: space-between;
+}
+.nav-item:hover{
+    background-color: aqua;  
+}
+.container3{
+    position: absolute;
+    top:90%;
+    left:5%;
+    
+}
+.container1{
+    background-image: url(shoppback.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+}
+.container6{
+    margin-left: 50px;
+    margin-top: 250px;
+}
+.container7{
+    background-color:rgb(72, 93, 130);
+    margin-top: 100px;
+    color: rgb(230, 219, 219);
+    padding: 50px;
+}
+.container8{
+    text-align: center;
+    background-color: white;
+    
+}
+.company {
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(187, 208, 226);
+}
