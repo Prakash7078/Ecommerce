@@ -4,8 +4,8 @@
   "description": "Small Shopping Website",
   "main": "index.js",
   "scripts": {
-    "build":"cd frontend && npm install && npm run build",
-    "start":"npm start",
+    "build":"cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start":"node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

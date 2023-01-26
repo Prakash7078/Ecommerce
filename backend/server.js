@@ -27,7 +27,7 @@ app.use((err,req,res,next)=>{
 });
 app.use(
     cors({
-        origin:["https://my-ecommerce-site.pnr.onrender.com","https://localhost:3000"]
+        origin:["https://localhost:3000","https://my-ecommerce-site.onrender.com"]
     })
 );
  const port=process.env.PORT || 5000;
