@@ -1,0 +1,19 @@
+{
+  "name": "shop_cart",
+  "version": "1.0.0",
+  "description": "Small Shopping Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakash7078/ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prakash7078/ecommerce/issues"
+  },
+  "homepage": "https://github.com/Prakash7078/ecommerce#readme"
+}
