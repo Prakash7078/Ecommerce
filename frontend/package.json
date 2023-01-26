@@ -8,6 +8,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.1.3",
+    "babel-jest": "^23.6.0",
+    "node-modules": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^1.3.0",
@@ -40,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

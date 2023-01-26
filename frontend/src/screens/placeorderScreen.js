@@ -28,7 +28,6 @@ function PlaceorderScreen() {
 
     const {state,dispatch:ctxDispatch}=useContext(Store);
     const{cart,userInfo}=state;
-
     const round=(num)=>Math.round(num*100+Number.EPSILON)/100;
 
     cart.itemsPrice=round(cart.cartItems.reduce((a,c)=>a+c.quantity*c.price,0));
@@ -46,7 +45,8 @@ function PlaceorderScreen() {
                 itemsPrice:cart.itemsPrice,
                 shippingPrice:cart.shippingPrice,
                 taxPrice:cart.taxPrice,
-                totalPrice:cart.totalPrice
+                totalPrice:cart.totalPrice,
+                _id:userInfo._id
             },{
                 headers:{
                     authorization:`Bearer ${userInfo.token}`,

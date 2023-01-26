@@ -12,6 +12,7 @@ import SignupScreen from './screens/SignupScreen';
 import ShippingAddressScreen from './screens/ShippingAddressScreen';
 import PaymentMethodScreen from './screens/paymentMethodScreen';
 import PlaceorderScreen from './screens/placeorderScreen';
+import OrderConfirm from './screens/OrderConfirm';
 
 function App() {
 
@@ -70,6 +71,9 @@ function App() {
           <Route path='/payment' element={<PaymentMethodScreen/>}></Route>
           <Route path='/placeorder' element={<PlaceorderScreen/>}></Route>
           <Route path='/product/:slug' element={<ProductScreen/>}></Route>
+          <Route path='/order/:_id' element={<OrderConfirm/>}></Route>
+          
+
         </Routes>
       </main>
       <footer>
